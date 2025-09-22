@@ -137,9 +137,9 @@ body{
         .contSubtitulos { 
             background-color: grey;           
             padding: 0.5em 0.5em;            
-            text-align: center; 
+            text-align: left; 
             font-size: 1rem;             
-            color: white;             
+            color: #2A3D5B;             
             max-width: 100%; /* Establece el ancho máximo del contenedor */
             overflow: hidden; /* Oculta el texto que se desborda del contenedor */
             text-overflow: ellipsis; /* Agrega puntos suspensivos (...) al texto desbordado */
@@ -147,7 +147,7 @@ body{
                     
         }
         .contSubtitulos h3{
-        margin-top: 1rem;
+       color: white;
         } 
     /*---------------------------------FIN CUADRICULA--------------------------------*/
 

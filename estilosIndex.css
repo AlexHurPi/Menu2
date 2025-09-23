@@ -1,31 +1,45 @@
 /*------------fuentes-----------------------*/
 body{
-    font-family: sans-serif;     
-    background-color: azure; 
-    position: relative; 
-    padding: 0%;  
-    margin: 0;    
+   font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;           
+            justify-content: center;  
+            align-items: center;                          
+            height: 100%; 
+            width: 100%;
+            max-width: 400px; 
+            margin: auto; /* Centra el contenedor horizontalmente */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra suave alrededor del contenedor */
+            border-radius: 8px; /* Bordes redondeados para un aspecto más suave */
+            background-color: white; /* Fondo blanco para el contenedor */
+            flex-direction: column; /* Alinea los elementos en columna */
+            overflow: hidden; /* Evita que el contenido se desborde del contenedor */
+
 }
+   
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    }
+    box-sizing: border-box;     
+}
+    
     /*---------------------------HEADER Y NAV BAR-----------------------*/
     header{        
     display: flex;
     align-items: center;    
     justify-content: center;
-    background-color: white;
-    padding: 1.5rem;
-    gap: 3rem;            
+    background-color: rgb(64, 165, 212);
+    padding: 0.5rem;
+    gap: 1rem;   
+    width: 100%;            
     }
     header img{           
-        width: 8em;
+        width: 4rem;
         height: auto;        
     }
     header h2{               
-        color: #2A3D5B;         
+        color: #2A3D5B;  
+        font-size: smaller;       
     }  
     header h4{               
         color: #2A3D5B;
@@ -46,7 +60,7 @@ body{
         background-color: transparent;
         text-decoration: underline;        
         font-weight: bolder;
-        font-size: 1rem;       
+        font-size: 0.5rem;       
     }
     .iconoQuienesSomos:hover{
         cursor: pointer;
@@ -58,13 +72,13 @@ body{
     .listNav{
         display: flex;           
         list-style-type: none;
-        gap: 5rem;  
+        gap: 1rem;  
         align-items: center;         
     }
     .listNav a{
         text-decoration: none;
         color: red;    
-        font-size: 1.5rem;
+        font-size: 0.5rem;
     }
     .listNav a:hover{     
      color: blueviolet; 
@@ -90,7 +104,13 @@ body{
         display: flex;
         flex-direction: column;
         overflow: hidden;
-        margin-top: 2em;
+        
+        margin-top: 2em; 
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+
+         
     }
     /*-----------------------FIN CONTENEDOR PRINCIPAL---------------------- */
 
@@ -102,7 +122,7 @@ body{
         }
         .containerCuadricula ul{      
         display: grid;        
-        grid-template-columns: 15em 15em 15em 15em;       
+        grid-template-columns: 22em;       
         list-style-type: none;
         column-gap: 2em;
         row-gap: 1em; 
@@ -125,8 +145,7 @@ body{
             justify-content: center;           
             padding: 0.5em;
             background-color: white;            
-            height: 15em; 
-                                 
+            height: 15em;                                  
         }
         .contImagenProducto img{            
             width: 100%; /* Ocupa todo el ancho de la celda */
@@ -186,116 +205,4 @@ body{
         }         
     /*----------------------------------FIN FOOTER---------------------------------*/
 
-    /*---------------------------ESTILOS RESPONSIVE---------------------------------*/
-@media screen and (max-width:1440px){
-    
-    .listNav{        
-       gap: 2rem;           
-   }    
-   .listNav a{            
-       font-size: 1.5rem;
-   }
-}
-
-@media screen and (max-width:1024px){
-     header{
-       gap: 2rem;
-   }   
-   header h2{
-       font-size: 1.2rem;
-       }
-       .listNav a{
-           font-size: 1.2rem;
-       }
-       .listNav{        
-           gap: 1rem;           
-       }       
-}
-@media screen and (max-width:780px){    
-    header {
-        padding: 0.5rem;
-        gap: 3rem;  
-     }
-     header h2{
-     font-size: 1.5rem;
-     }
-     header img{           
-        width: auto;
-        height: 3rem;        
-     }
-    .abrir-menu{
-   display: block;       
-}
-.nav{      
-   display: flex;
-   position: absolute; 
-   flex-direction: column;          
-   top: 0rem;
-   right: 0rem;
-   bottom: 0rem;
-   left: 8rem;
-   background-color: red;    
-   box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
-   padding: 1rem;   
-   display: none;
-   border-radius: 1rem;    
    
-}
-.listNav{
-flex-direction: column;
-align-items: end;
-gap: 2rem;
-}
-.listNav a{    
-   color: white;
-   font-family: Sansita-Regular;
-   font-size: 1.3rem;
-}
-.listNav a:hover{   
-   font-size: 1.2rem;    
-  }     
-.cerrar-menu{       
-   display: block;   
-   margin-bottom: 1rem; 
-   position: relative;     
-}
-.nav.visible{
-   display: block;
-}
-
-.iconoQuienesSomos{
-   display: flex;       
-   left: 2rem;
-   bottom: 0.5rem;
-   flex-direction: column;
-   align-items: center;   
-}    
-.iconoQuienesSomos img{
-   width: 3rem;
-   height: 3rem;
-   border-radius: 50%;
-}
-.quienesSomos{
-color: white;
-font-size: 0.7rem;
-}
-.contenedorPrincipal {
-    width: 100%;
-}
-/*----------------------------------CUADRICULA---------------------------------------*/
-.containerCuadricula{
-      
-}
-.containerCuadricula ul{           
-    grid-template-columns:24em; 
-    column-gap: 0.5em;      
-    }       
-/*----------------------------------CUADRICULA---------------------------------------*/
-.mapa{  
-   width: 95%;  
-} 
-footer{
-   height: 5rem;
-}
-}
-

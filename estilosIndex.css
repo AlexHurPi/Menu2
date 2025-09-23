@@ -26,18 +26,19 @@ body{
         justify-content: center;
         background-color: rgb(64, 165, 212);
         padding: 0.5rem;
-        gap: 3rem;   
+        gap: 1rem;   
         width: 100%;            
     }
     header img{           
         width: 5rem;
         height: auto;        
     }
-    header h2{               
+    header h3{               
         color: #2A3D5B;  
-        font-size: smaller;       
+          text-align: center; 
+          width: max-content; 
     }  
-    header h4{               
+    header h5{               
         color: #2A3D5B;
         text-align: center;         
     } 

@@ -9,8 +9,7 @@ body{
    height: 100%; 
    width: 100%;
    max-width: 400px;  
-   margin: 0;
-   padding: 0;
+    margin: 0 auto; /* Centra el contenedor principal horizontalmente */
    box-sizing: border-box;          
 }
    
@@ -45,7 +44,9 @@ body{
     .iconoQuienesSomos{
         display: flex;          
         flex-direction: column;
-        align-items: center;       
+        align-items: center; 
+        justify-content: center;
+        text-align: center;      
     }    
     .iconoQuienesSomos img{
         width: 5rem;
@@ -84,7 +85,7 @@ body{
             flex-direction: column;  
             justify-content: center;                                                    
             overflow: hidden;        
-            margin-top: 2em;         
+            margin-top: 0.5em;         
             justify-content: center;
             align-items: center;            
         }        

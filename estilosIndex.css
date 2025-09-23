@@ -106,7 +106,7 @@ body{
         overflow: hidden;
         
         margin-top: 2em; 
-        width: 90%;
+        
         justify-content: center;
         align-items: center;
 
@@ -122,7 +122,7 @@ body{
         }
         .containerCuadricula ul{      
         display: grid;        
-        grid-template-columns: 22em;       
+        grid-template-columns: 20em;       
         list-style-type: none;
         column-gap: 2em;
         row-gap: 1em; 

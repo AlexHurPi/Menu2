@@ -90,7 +90,8 @@ body{
             margin-bottom: 0.5em;        
             justify-content: center;
             align-items: center; 
-            padding-bottom: 1em;           
+            padding-bottom: 1em; 
+            width: 95%;          
         }        
         .tarjeta{
             display: flex;

@@ -8,7 +8,7 @@
     src: url(fuentes/Jost-VariableFont_wght.ttf);
 }
 body{
-   font-family: castorm;
+   font-family: jost, sans-serif;
    background-color: #f4f4f4;
    display: flex;   
    flex-direction: column;        
@@ -101,7 +101,7 @@ body{
             justify-content: center;
             align-items: center; 
             padding-bottom: 1em; 
-            width: 92%;          
+            width: 100%;          
         }        
         .tarjeta{
             display: flex;
@@ -110,7 +110,7 @@ body{
             border: 2px solid darkgray;
             overflow: hidden; 
             box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, .5);  
-            width: 100%;  
+            width: 90%;  
             margin-top: 1em; 
                  
         }    
@@ -120,8 +120,7 @@ body{
         }
         .productoPrecio{
             display: flex;
-            justify-content: space-between;
-            padding: 0.5em;            
+            justify-content: space-between;                       
         }
         .contImagenProducto{
             display: flex;
@@ -155,8 +154,7 @@ body{
         } 
         .tarjeta p{
             font-size: 0.7rem;
-            margin-left: 1em;
-            margin-top: 0;
+            margin-left: 1em;            
         }
     /*---------------------------------FIN CUADRICULA--------------------------------*/
 

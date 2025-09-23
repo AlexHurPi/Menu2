@@ -103,14 +103,10 @@ body{
     .contenedorPrincipal{
         display: flex;
         flex-direction: column;
-        overflow: hidden;
-        
-        margin-top: 2em; 
-        
+        overflow: hidden;        
+        margin-top: 2em;         
         justify-content: center;
-        align-items: center;
-
-         
+        align-items: center;         
     }
     /*-----------------------FIN CONTENEDOR PRINCIPAL---------------------- */
 
@@ -121,8 +117,8 @@ body{
              
         }
         .containerCuadricula ul{      
-        display: grid;        
-        grid-template-columns: 20em;       
+        display: grid;
+        grid-template-columns: 22em;       
         list-style-type: none;
         column-gap: 2em;
         row-gap: 1em; 
@@ -175,9 +171,8 @@ body{
         display: flex;  
         margin: 2em auto;      
         width: 30%;                         
-        box-shadow: 2px 0vw 10px 10px rgba(0, 0, 0, .5);       
-       
-    }  
+        box-shadow: 2px 0vw 10px 10px rgba(0, 0, 0, .5);
+        }  
     /*-------------------------------------FIN MAPA----------------------------------*/
 
      /*-----------------------------------FOOTER-------------------------------------*/

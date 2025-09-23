@@ -9,11 +9,7 @@ body{
             width: 100%;
             max-width: 400px; 
             margin: auto; /* Centra el contenedor horizontalmente */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Añade una sombra suave alrededor del contenedor */
-            border-radius: 8px; /* Bordes redondeados para un aspecto más suave */
-            background-color: white; /* Fondo blanco para el contenedor */
-            flex-direction: column; /* Alinea los elementos en columna */
-            overflow: hidden; /* Evita que el contenido se desborde del contenedor */
+           flex-direction: column;
 
 }
    

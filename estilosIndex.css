@@ -1,15 +1,17 @@
 /*------------fuentes-----------------------*/
 body{
    font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            display: flex;   
-            flex-direction: column;        
-            justify-content: center;  
-            align-items: center;                          
-            height: 100%; 
-            width: 100%;
-            max-width: 400px; 
-            margin: auto; /* Centra el contenedor horizontalmente */
+   background-color: #f4f4f4;
+   display: flex;   
+   flex-direction: column;        
+   justify-content: center;  
+   align-items: center;                          
+   height: 100%; 
+   width: 100%;
+   max-width: 400px;  
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;          
 }
    
 *{
@@ -20,16 +22,16 @@ body{
     
     /*---------------------------HEADER Y NAV BAR-----------------------*/
     header{        
-    display: flex;
-    align-items: center;    
-    justify-content: center;
-    background-color: rgb(64, 165, 212);
-    padding: 0.5rem;
-    gap: 1rem;   
-    width: 100%;            
+        display: flex;   
+        align-items: center;    
+        justify-content: center;
+        background-color: rgb(64, 165, 212);
+        padding: 0.5rem;
+        gap: 3rem;   
+        width: 100%;            
     }
     header img{           
-        width: 4rem;
+        width: 5rem;
         height: auto;        
     }
     header h2{               
@@ -63,69 +65,38 @@ body{
     }
     .quienesSomos img{
         object-fit: cover;
-    }     
-    .listNav{
-        display: flex;           
-        list-style-type: none;
-        gap: 1rem;  
-        align-items: center;         
-    }
-    .listNav a{
-        text-decoration: none;
-        color: red;    
-        font-size: 0.5rem;
-    }
-    .listNav a:hover{     
-     color: blueviolet; 
-     font-size: 1.7rem;    
-    }          
-    .cerrar-menu{           
-        display: none;        
-        background-color: red; 
-       border: none;
-       font-size: 1.5rem;                              
-    }
-    .abrir-menu{
-     display: none;  
-     border: none;     
-     font-size: 2.5rem;
-     background-color: white;
-     color: red;     
-    }  
+    }      
     /*--------------------------FIN HEADER Y NAV BAR------------------------*/
 
     /*--------------------------CONTENEDOR PRINCIPAL----------------------- */
     .contenedorPrincipal{
         display: flex;
-        flex-direction: column;
-        overflow: hidden;        
-        margin-top: 2em;         
-        justify-content: center;
-        align-items: center;         
+       flex-direction: column; 
+       justify-content: center;
+       align-items: center;
+       width: 100%;
     }
     /*-----------------------FIN CONTENEDOR PRINCIPAL---------------------- */
 
     /*--------------------------CUADRICULA---------------------------------*/
         .containerCuadricula{
             display: flex;
-            justify-content: center;                                             
-             
-        }
-        .containerCuadricula ul{      
-        display: grid;
-        grid-template-columns: 22em;       
-        list-style-type: none;
-        column-gap: 2em;
-        row-gap: 1em; 
-        margin-bottom: 2em;      
-        }       
+            justify-content: center;  
+            flex-direction: column;                                           
+            overflow: hidden;        
+            margin-top: 2em;         
+            justify-content: center;
+            align-items: center;            
+        }        
         .tarjeta{
             display: flex;
             flex-direction: column;
             border-radius: 0.5em;
             border: 2px solid darkgray;
             overflow: hidden; 
-            box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, .5);          
+            box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, .5);  
+            width: 90%;  
+             margin-top: 1em;       
         }    
         .tarjeta:hover{
             box-shadow: 6px 5px 5px 5px rgba(0, 0, 0, .5); 
@@ -164,8 +135,10 @@ body{
     /*--------------------------------------MAPA-------------------------------------*/
     .mapa{
         display: flex;  
-        margin: 2em auto;      
-        width: 60%;                         
+        justify-content: center;  
+        align-items: center;
+        margin-top: 2em;    
+        width: 90%;                         
         box-shadow: 2px 0vw 10px 10px rgba(0, 0, 0, .5);
         }  
     /*-------------------------------------FIN MAPA----------------------------------*/

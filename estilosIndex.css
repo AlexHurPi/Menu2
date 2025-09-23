@@ -2,15 +2,14 @@
 body{
    font-family: Arial, sans-serif;
             background-color: #f4f4f4;
-            display: flex;           
+            display: flex;   
+            flex-direction: column;        
             justify-content: center;  
             align-items: center;                          
             height: 100%; 
             width: 100%;
             max-width: 400px; 
             margin: auto; /* Centra el contenedor horizontalmente */
-           flex-direction: column;
-
 }
    
 *{
@@ -166,7 +165,7 @@ body{
     .mapa{
         display: flex;  
         margin: 2em auto;      
-        width: 30%;                         
+        width: 60%;                         
         box-shadow: 2px 0vw 10px 10px rgba(0, 0, 0, .5);
         }  
     /*-------------------------------------FIN MAPA----------------------------------*/
@@ -181,7 +180,8 @@ body{
         justify-content: center;
         align-items: center;      
         gap: 0.5rem; 
-        margin-top: 2em;          
+        margin-top: 2em;   
+        width: 100%;       
         }
         footer a{
             display: flex;

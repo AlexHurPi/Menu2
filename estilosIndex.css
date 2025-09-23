@@ -62,27 +62,27 @@ body{
         flex-direction: column;
         align-items: center; 
         justify-content: center;
-        text-align: center;      
+        text-align: center;         
     }    
+    .iconoQuienesSomos a{
+        text-decoration: none;        
+        color: #2A3D5B;        
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;  
+        font-family: jost-bold;    
+    }
     .iconoQuienesSomos img{
         width: 5rem;
         height: auto;
         border-radius: 50%;
-    }          
-    .quienesSomos{
-        border: none;
-        background-color: transparent;
-        text-decoration: underline;        
-        font-weight: bolder;
-        font-size: 0.5rem;       
-    }
+    }  
     .iconoQuienesSomos:hover{
         cursor: pointer;
         transform: scale(1.2);
     }
-    .quienesSomos img{
-        object-fit: cover;
-    }      
+   
     /*--------------------------FIN HEADER Y NAV BAR------------------------*/
 
     /*--------------------------CONTENEDOR PRINCIPAL----------------------- */

@@ -7,6 +7,10 @@
     font-family:jost;
     src: url(fuentes/static/Jost-ExtraLight.ttf);
 }
+@font-face{    
+    font-family:jost-bold;
+    src: url(fuentes/static/Jost-Bold.ttf);
+}
 body{
    font-family: jost;
    background-color: #f4f4f4;
@@ -43,10 +47,11 @@ body{
         width: 5rem;
         height: auto;        
     }
-    header h3{               
+    header h2{   
+        font-family: jost-bold;            
         color: #2A3D5B;  
           text-align: center; 
-          width: max-content; 
+          width: max-content;          
     }  
     header h5{               
         color: #2A3D5B;
@@ -140,9 +145,9 @@ body{
             font-size: 1rem;             
             color: white;             
             max-width: 100%; /* Establece el ancho máximo del contenedor */
-            overflow: hidden; /* Oculta el texto que se desborda del contenedor */
+            
             text-overflow: ellipsis; /* Agrega puntos suspensivos (...) al texto desbordado */
-            white-space: nowrap; /* Evita que el texto se divida en múltiples líneas */                    
+                               
         }
         .contSubtitulos h3{
             color: rgb(228, 20, 214);

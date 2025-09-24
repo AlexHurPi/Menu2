@@ -110,7 +110,7 @@ body{
             align-items: center;            
             background-color: #2A3D5B; 
             color: rgb(228, 20, 214); 
-            width: 90%; 
+            width: 95%; 
             height: 2.5em; 
             margin-top: 1em; 
             border-radius: 0.5em; 
@@ -123,7 +123,7 @@ body{
             border: 2px solid darkgray;
             overflow: hidden; 
             box-shadow: 5px 5px 2px 2px rgba(0, 0, 0, .5);  
-            width: 85%;  
+            width: 88%;  
             margin-top: 1em; 
                  
         }    
@@ -144,7 +144,11 @@ body{
         .contImagenProducto img{              
             height: 100%;/* Ocupa el 60% de la altura de la celda */
             margin: auto; /* Centra la imagen vertical y horizontalmente */
-            object-fit: cover; /* Ajusta la imagen para cubrir la celda */             
+            object-fit: cover; /* Ajusta la imagen para cubrir la celda */ 
+                        
+        }
+        .imgProducto{
+            border-radius: 30px; /* Bordes redondeados a una imagen generada por IA que salio sin bordes */
         }
         .contSubtitulos { 
             background-color: #2A3D5B;           

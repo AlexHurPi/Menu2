@@ -146,7 +146,7 @@ body{
         .imgProducto{
             border-radius: 30px; /* Bordes redondeados a una imagen generada por IA que salio sin bordes */
             height: 100%;/* Ocupa el 60% de la altura de la celda */
-            width: auto;
+            max-width: 95%;            
         }
         .contSubtitulos { 
             background-color: #2A3D5B;           

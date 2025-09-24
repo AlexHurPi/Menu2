@@ -172,7 +172,8 @@ body{
         } 
         .tarjeta p{
             font-size: 0.7rem;
-            margin-left: 1em;            
+            margin-left: 1em;  
+            text-align: justify;          
         }
     /*---------------------------------FIN CUADRICULA--------------------------------*/
 

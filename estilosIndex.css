@@ -190,7 +190,7 @@ body{
      /*-----------------------------------FOOTER-------------------------------------*/
      footer{  
         position: relative;    
-        background-color: red;
+        background-color: rgb(64, 165, 212);
         height: 5rem;
         color: white;
         display: flex;    

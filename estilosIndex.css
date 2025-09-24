@@ -1,8 +1,4 @@
 /*------------fuentes-----------------------*/
-@font-face{
-    font-family: castorm;
-    src: url(Fuentes/Castorm.ttf);
-}
 @font-face{    
     font-family:jost;
     src: url(fuentes/static/Jost-ExtraLight.ttf);
@@ -149,6 +145,8 @@ body{
         }
         .imgProducto{
             border-radius: 30px; /* Bordes redondeados a una imagen generada por IA que salio sin bordes */
+            height: 100%;/* Ocupa el 60% de la altura de la celda */
+            width: auto;
         }
         .contSubtitulos { 
             background-color: #2A3D5B;           

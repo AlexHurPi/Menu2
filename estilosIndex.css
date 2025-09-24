@@ -78,11 +78,6 @@ body{
         height: auto;
         border-radius: 50%;
     }  
-    .iconoQuienesSomos:hover{
-        cursor: pointer;
-        transform: scale(1.2);
-    }
-   
     /*--------------------------FIN HEADER Y NAV BAR------------------------*/
 
     /*--------------------------CONTENEDOR PRINCIPAL----------------------- */
@@ -107,7 +102,20 @@ body{
             align-items: center; 
             padding-bottom: 1em; 
             width: 100%;          
-        }        
+        }      
+        .seccion{
+            font-family: jost-bold;
+            display: flex;  
+            justify-content: center;  
+            align-items: center;            
+            background-color: #2A3D5B; 
+            color: rgb(228, 20, 214); 
+            width: 90%; 
+            height: 2.5em; 
+            margin-top: 1em; 
+            border-radius: 0.5em; 
+            box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, .5);  
+        }  
         .tarjeta{
             display: flex;
             flex-direction: column;

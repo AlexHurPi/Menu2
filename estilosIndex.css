@@ -98,7 +98,13 @@ body{
             align-items: center; 
             padding-bottom: 1em; 
             width: 100%;          
-        }      
+        }    
+        .titulo{
+            font-family: jost;            
+            color: #2A3D5B;  
+            text-align: center;            
+        }
+
         .seccion{
             font-family: jost-bold;
             display: flex;  

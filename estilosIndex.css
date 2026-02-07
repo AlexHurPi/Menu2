@@ -35,12 +35,13 @@ body{
         align-items: center;    
         justify-content: center;
         background-color: rgb(64, 165, 212);
-        padding: 0.5rem;
+        padding-block: 1rem;
+        padding-inline: 2rem;
         gap: 1rem;
         width: 100%;              
     }
     header img{           
-        width: 5rem;
+        width: 4rem;
         height: auto;        
     }
     header h3{   

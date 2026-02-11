@@ -218,4 +218,38 @@ body{
         }         
     /*----------------------------------FIN FOOTER---------------------------------*/
 
-   
+    .botones-container {
+            display: flex;
+            gap: 20px; /* Espacio entre botones */
+        }
+
+        /* Estilo de los Botones (Links) */
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            text-decoration: none; /* Quita el subrayado del link */
+            color: white;
+            border: 1px solid white;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+
+        /* Efecto Hover (al pasar el mouse) */
+        .btn:hover {
+            background-color: white;
+            color: #000;
+            cursor: pointer;
+        }
+
+        /* Botón Primario (Destacado) */
+        .btn-gold {
+            background-color: #d4af37; /* Color dorado */
+            border-color: #d4af37;
+        }
+        
+        .btn-gold:hover {
+            background-color: #b59021;
+            color: white;
+        }
